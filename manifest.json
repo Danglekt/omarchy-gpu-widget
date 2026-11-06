@@ -4,14 +4,15 @@
   "name": "GPU Monitor",
   "version": "1.0.0",
   "author": "gileshome",
-  "description": "Shows GPU temperature and VRAM usage for a discrete GPU (dGPU) in the Omarchy bar.",
+  "license": "MIT",
+  "description": "Shows an AMD GPU's temperature and VRAM usage in the bar. Auto-detects the discrete GPU by default; a per-widget \"card\" setting overrides the device.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
     "displayName": "GPU",
-    "description": "GPU temperature and VRAM for the dGPU",
+    "description": "GPU temperature and VRAM for the AMD GPU",
     "category": "system",
     "allowMultiple": false
   }
