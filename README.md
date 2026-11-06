@@ -34,10 +34,10 @@ Clone the repo into your user plugin directory:
 
 ```sh
 mkdir -p ~/.config/omarchy/plugins
-git clone <REPO_URL> ~/.config/omarchy/plugins/gileshome.gpu
+git clone https://github.com/Danglekt/omarchy-gpu-widget.git ~/.config/omarchy/plugins/gileshome.gpu
 ```
 
-`<REPO_URL>` is the GitHub URL of this repository (fill in once published).
+
 
 Then add it to the bar and make sure it's enabled:
 
