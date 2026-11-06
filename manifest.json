@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "gileshome.gpu",
+  "name": "GPU Monitor",
+  "version": "1.0.0",
+  "author": "gileshome",
+  "description": "Shows GPU temperature and VRAM usage for a discrete GPU (dGPU) in the Omarchy bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "GPU",
+    "description": "GPU temperature and VRAM for the dGPU",
+    "category": "system",
+    "allowMultiple": false
+  }
+}
